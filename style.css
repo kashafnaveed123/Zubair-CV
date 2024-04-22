@@ -1,0 +1,152 @@
+/*------------------ header---------------- */
+*{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.name{
+  margin-left: 15rem;
+  color: #010238;
+
+}
+.img{
+    position: absolute;
+ right: 100px;
+}
+/*------------------ summary---------------- */
+.summary{
+    display: flex;
+    flex-direction: row;
+}
+.summary h3{
+    color: #010238;
+    width: 30%;
+    /* background-color: blueviolet; */
+    /* margin: auto; */
+    text-align: center;
+    justify-content: center;
+}
+.summary p{
+    margin-left: 3rem;
+    width: 80%;
+    word-spacing: 2px;
+    /* background-color: blueviolet; */
+}
+/*------------------ experience---------------- */
+.experience{
+    display: flex;
+    flex-direction: row;
+    
+}
+.exp-head{
+    width: 40%;
+    /* background-color: chartreuse; */
+    /* margin: auto 9rem; */
+    text-align: center;
+    color: #010238;
+
+}
+.experiencepara{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.experiencepara1{
+    width: 50%;
+    /* background-color: aqua; */
+}
+.experiencepara2{
+    /* padding-top: 3rem; */
+    width: 50%;
+    /* background-color: red; */
+}
+.experiencepara2{
+    padding-top: 1.7rem;
+    width: 40%;
+    /* background-color: red; */
+}.experiencepara2 p{
+    padding-top: 1.7rem;
+ 
+}
+/*------------------ education---------------- */
+.education{
+    display: flex;
+    flex-direction: row;
+    /* width: 50%; */
+}
+.edu-head{
+    width: 30%;
+    /* margin: auto; */
+    text-align: center;
+    justify-content: center;
+    /* background-color: rgb(2, 96, 96); */
+
+}
+.education2{
+    display: flex;
+    flex-direction: row;
+        width: 72%;
+}
+.educationpara1{
+    width: 50%;
+    /* background-color: aqua; */
+}
+.educationpara2{
+    width: 50%;
+    /* background-color: red; */
+}
+/*------------------ skills---------------- */
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+.skills h3{
+    /* background-color: blue; */
+    width: 30%;
+    text-align: center;
+    /* margin: auto; */
+}
+.skillspara{
+    /* background-color: green; */
+    width: 72%;
+    text-align: center;
+    padding: 3rem 0rem;
+    word-spacing: 2px;
+    line-height: 2rem;
+}
+/*------------------ contact---------------- */
+.contact-section{
+    display: flex;
+    flex-direction: row;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellowgreen; */
+    width: 30%;
+    /* margin: auto; */
+}
+.contact h3{
+    text-align: center;
+    margin: auto;    
+}
+.contactpara{
+    /* background-color: aqua; */
+    width: 72%;
+    text-align: center;
+}
+.p1,.p2,.p3,.p4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.hr{
+    margin-left: 22rem;
+    width: 63rem;
+    height: 2px;
+    border-top: 2px solid #010238 ;
+}
